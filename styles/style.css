@@ -1,13 +1,44 @@
 @import url('https://fonts.googleapis.com/css2?family=Boogaloo&family=PT+Sans&display=swap');
 
+/*general*/
 #content{
     max-width:1600px;
     margin: 0 auto;
 }
+h2{
+    margin: 0;
+    color:#283618;
+}
+h4{
+    color:#283618;
+}
+
+/*nav tav*/
 nav a{
     text-align: center;
     color: #F8F7F3;
     text-decoration: none;
+    padding: 35px;
+}
+.logo{
+    width: 80px;
+}
+#logo_link{
+    padding-top: 5px;
+}
+.icon{
+    width: 80px;
+    padding-top: 10px;
+}
+#hero-img{
+    width: 100%;
+}
+/*Have an adventure*/
+.home-title{
+    color:#283618;
+    font-family: "Boogaloo",Arial,sans-serif;
+    font-size: 3em;
+    margin-top: 10px;
 }
 #hero-msg h1{
     text-align: center;
@@ -17,17 +48,6 @@ nav a{
 }
 .button-box{
     text-align: center;
-}
-main section{
-    text-align: center;
-}
-#background{
-    height: 725px;
-    background-color: #92A26F;
-}
-body{
-    background-color: #FFFFFF;
-    font-family: "PT Sans",Arial,sans-serif;
 }
 header{
     background-color: #606C38;
@@ -41,32 +61,41 @@ nav a:hover{
     background-color: #BC6C25;
     color:#F8F7F3;
     text-decoration: none;
-}
-.join{
-    background-color: #F8F7F3;
-    color:#283618;
-    text-decoration: none;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
 }
 .book:hover{
     background-color: #884E1B;
     color:#F8F7F3;
 }
+main section{
+    text-align: center;
+}
+#background{
+    height: 725px;
+    background-color: #92A26F;
+}
+.join{
+    background-color: #F8F7F3;
+    color:#283618;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
+}
 .join:hover{
     background-color: #DFDDCE;
     color:#283618;
 }
+
 .msg{
     background-color: #283618;
-}
-footer{
-    background-color: #606C38;
-}
-.home-title{
-    color:#283618;
-    font-family: "Boogaloo",Arial,sans-serif;
-}
-h4{
-    color:#283618;
+    line-height: 1.5em;
+    padding: 35px;
+    margin-top:200px;
 }
 .msg h2{
     color:#F8F7F3;
@@ -75,9 +104,16 @@ h4{
 }
 .msg p{
     color:#F8F7F3;
+    font-size: .8em;
+    padding-bottom: 15px ;
 }
+
+
 footer{
+    background-color: #606C38;
     color:#F8F7F3;
+    padding: 25px 50px;
+    margin-top: 200px;
 }
 footer a{
     color:#F8F7F3;
@@ -88,14 +124,36 @@ footer a:hover{
 }
 footer p{
     font-size: 1.2em;
+}
+footer p a:hover{
     text-decoration: underline;
 }
-.logo{
-    width: 80px;
+footer .social img{
+    padding-top: 15px;
 }
-.icon{
-    width: 80px;
+.rivers-card{
+    margin: 200px 0;
 }
-#hero-img{
-    width: 100%;
+.camping-card{
+    margin: 200px 0;
+}
+.rapids-card{
+    margin: 200px 0;
+}
+.mountains{
+    margin-top:50px
+}
+.card-img{
+    border:10px solid #283618;
+}
+main section img{
+    box-sizing: border-box; 
+}
+body{
+    background-color: #FFFFFF;
+    font-family: "PT Sans",Arial,sans-serif;
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
+
 }
